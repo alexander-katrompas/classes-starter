@@ -14,7 +14,6 @@
 #define BOXES_FUNCTIONS_H
 
 #include <iostream>
-#include "rectangle.h"
 #include "box.h"
 
 void displayRectangle(Rectangle*);
