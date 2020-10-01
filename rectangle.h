@@ -13,6 +13,8 @@
 #ifndef CLASSES_RECTANGLE_H
 #define CLASSES_RECTANGLE_H
 
+#define MIN 0
+
 class Rectangle {
 
     public:

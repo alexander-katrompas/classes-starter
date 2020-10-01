@@ -14,9 +14,9 @@
 
 Box::Box() {
     //use your own setters!
-    setWidth(0);
-    setHeight(0);
-    setDepth(0);
+    setWidth(MIN);
+    setHeight(MIN);
+    setDepth(MIN);
 }
 
 Box::Box(int w, int h, int d) {
@@ -47,9 +47,9 @@ int Box::getArea() {
 
 void Box::setDepth(int d) {
     //setters are where you keep your protections for attributes
-    if (d > 0) {
+    if (d > MIN) {
         depth = d;
     } else {
-        depth = 0;
+        depth = MIN;
     }
 }

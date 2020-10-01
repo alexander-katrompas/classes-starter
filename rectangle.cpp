@@ -14,8 +14,8 @@
 
 Rectangle::Rectangle() {
     //use your own setters!
-    setWidth(0);
-    setHeight(0);
+    setWidth(MIN);
+    setHeight(MIN);
 }
 
 Rectangle::Rectangle(int w, int h) {
@@ -41,18 +41,18 @@ int Rectangle::getArea() {
 
 void Rectangle::setHeight(int h) {
     //setters are where you keep your protections for attributes
-    if (h > 0) {
+    if (h > MIN) {
         height = h;
     } else {
-        height = 0;
+        height = MIN;
     }
 }
 
 void Rectangle::setWidth(int w) {
     //setters are where you keep your protections for attributes
-    if (w > 0) {
+    if (w > MIN) {
         width = w;
     } else {
-        width = 0;
+        width = MIN;
     }
 }

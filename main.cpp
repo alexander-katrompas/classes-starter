@@ -23,7 +23,6 @@ int main(int argc, char** argv) {
     //creates a box object with height, width, depth 5x4x6
     Box myBox2(5, 4, 6);
 
-
     //examples of passing objects by reference
     displayRectangle(&myRectangle1);
     displayRectangle(&myRectangle2);
