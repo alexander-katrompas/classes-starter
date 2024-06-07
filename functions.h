@@ -1,14 +1,10 @@
-/*
- * 
- * 
- * 
- * 
- */
-
-/* 
- * File:   functions.h
- * Author: Alex Katrompas
- */
+/* *************************************************
+*  Name: Alexander Katrompas
+*  Assignment: Classes and Objects Demonstration Code
+*  Purpose: 
+*  
+*  
+************************************************* */
 
 #ifndef BOXES_FUNCTIONS_H
 #define BOXES_FUNCTIONS_H
