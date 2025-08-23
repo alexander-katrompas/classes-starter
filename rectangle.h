@@ -33,7 +33,15 @@ class Rectangle {
     void setWidth(int);
     void setHeight(int);
 
+    /**********************
+    Printing
+    ***********************/
+
 protected:
+
+    /**********************
+    Attributes
+    ***********************/
     int width, height;
 };
 
