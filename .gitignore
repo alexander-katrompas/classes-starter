@@ -5,7 +5,8 @@
 *
 */
 
-#unignore .cpp and .h and this file
+#unignore
+!README.md
 !.gitignore
 !*.cpp
 !*.h
