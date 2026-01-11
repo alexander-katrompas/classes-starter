@@ -8,10 +8,8 @@
 #ifndef MAIN_CLASSES_H
 #define MAIN_CLASSES_H
 
-// instructional comment: note rectangle is not included, should it be?
-#include "box.h"
+#include "box.h" // rectangle is not included here because box.h includes it
 #include "functions.h"
 #include <iostream>
 
 #endif /* MAIN_CLASSES_H */
-

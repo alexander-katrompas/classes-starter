@@ -9,7 +9,6 @@
 *  not be part of actual applications.
 ************************************************* */
 
-
 #include "main.h"
 
 int main() {
@@ -26,12 +25,12 @@ int main() {
     // instructional comment: creates a rectangle object with no parameters
     Rectangle myRectangle1;
     // instructional comment: creates a rectangle object with width and height 5x4
-    Rectangle myRectangle2(5, 4);
+    Rectangle myRectangle2(5, 4);  // remember, normally we do not use literals directly
 
     // instructional comment: creates a box object with no parameters
     Box myBox1;
     // instructional comment: creates a box object with width, height, depth 5x4x6
-    Box myBox2(5, 4, 6);
+    Box myBox2(5, 4, 6);  // remember, normally we do not use literals directly
 
     // instructional comment: examples of passing objects by reference
     displayRectangle(&myRectangle1);

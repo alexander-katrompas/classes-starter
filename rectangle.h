@@ -37,7 +37,10 @@ class Rectangle {
     Printing
     ***********************/
 
-protected:
+protected: // we use protected here to allow access to derived classes
+    /**********************
+    Attributes
+    ***********************/
 
     /**********************
     Attributes
